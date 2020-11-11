@@ -1,6 +1,7 @@
+SERVER_ID = 'artifactory'
 pipeline {
     agent any
-    def SERVER_ID = 'artifactory'
+    
 
     stages {
         stage ('Clone') {
